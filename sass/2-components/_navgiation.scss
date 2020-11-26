@@ -1,0 +1,25 @@
+.navigation {
+    @include displayFlex(row, space-between, center);
+    padding: 2rem 2rem;
+
+
+    &__logo {
+        text-decoration: none;
+        font-size: 1.25rem;
+        line-height: 1.5rem;
+    }
+
+    &__list {
+        @include displayFlex(row, center, center);
+        list-style: none;
+    }
+
+    &__listItem {
+        margin-left: 2rem;
+
+        a {
+            font-size: 1.2rem;
+            text-decoration: none;
+        }
+    }
+}
