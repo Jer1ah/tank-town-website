@@ -1,6 +1,19 @@
 .navigation {
-    @include displayFlex(row, center, center);
-    padding: 2rem 2rem;
+    @include displayFlex(row, space-between, center);
+    background-color: rgba(10, 10, 10, .95);
+    padding: 1rem 3rem;
+
+    &__logo {
+        text-decoration: none;
+        color: $main-white;
+
+        h3 {
+            font-size: 1.5rem;
+            letter-spacing: .1rem;
+            line-height: 1.33rem;
+            font-weight: 600;
+        }
+    }
 
     &__list {
         @include displayFlex(row, center, center);
@@ -11,7 +24,7 @@
         margin-left: 2rem;
 
         a {
-            font-size: 1.2rem;
+            font-size: 1rem;
             text-decoration: none;
             color: $main-white;
             letter-spacing: .1rem;
