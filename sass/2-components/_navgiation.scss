@@ -1,13 +1,6 @@
 .navigation {
-    @include displayFlex(row, space-between, center);
+    @include displayFlex(row, center, center);
     padding: 2rem 2rem;
-
-
-    &__logo {
-        text-decoration: none;
-        font-size: 1.25rem;
-        line-height: 1.5rem;
-    }
 
     &__list {
         @include displayFlex(row, center, center);
@@ -20,6 +13,8 @@
         a {
             font-size: 1.2rem;
             text-decoration: none;
+            color: $main-white;
+            letter-spacing: .1rem;
         }
     }
 }
