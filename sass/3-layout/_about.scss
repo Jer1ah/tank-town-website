@@ -1,0 +1,23 @@
+.about {
+    background-color: $main-green;
+    padding: .1rem;
+
+    &__wrapper {
+        width: 90%;
+        margin: 3rem auto;
+    }
+
+    h2 {
+        color: $main-white;
+        font-weight: 600;
+        font-size: 2.2rem;
+        margin-bottom: .5rem;
+    }
+
+    p {
+        color: $main-white;
+        font-size: 1.1rem;
+        line-height: 1.55rem;
+        margin-bottom: 1.5rem;
+    }
+}

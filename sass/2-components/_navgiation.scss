@@ -28,6 +28,11 @@
             text-decoration: none;
             color: $main-white;
             letter-spacing: .1rem;
+            transition: all .15s;
+
+            &:hover {
+                color: $main-green;
+            }
         }
     }
 }

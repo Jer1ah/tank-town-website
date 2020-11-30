@@ -46,6 +46,10 @@ body {
   text-decoration: none;
   color: #feffff;
   letter-spacing: 0.1rem;
+  transition: all 0.15s;
+}
+.navigation__listItem a:hover {
+  color: #2b7a78;
 }
 
 .header {
@@ -69,11 +73,36 @@ body {
   color: #feffff;
   background-color: #2b7a78;
   font-size: 1rem;
-  padding: 0.75rem 1.25rem;
-  border: 0.1rem solid #2b7a78;
+  padding: 0.65rem 1.25rem;
+  border: 0.2rem solid #2b7a78;
   margin-top: 2rem;
   border-radius: 0.1rem;
   font-weight: 500;
+  transition: all 0.2s;
+}
+.header__heading a:hover {
+  background-color: transparent;
+}
+
+.about {
+  background-color: #2b7a78;
+  padding: 0.1rem;
+}
+.about__wrapper {
+  width: 90%;
+  margin: 3rem auto;
+}
+.about h2 {
+  color: #feffff;
+  font-weight: 600;
+  font-size: 2.2rem;
+  margin-bottom: 0.5rem;
+}
+.about p {
+  color: #feffff;
+  font-size: 1.1rem;
+  line-height: 1.55rem;
+  margin-bottom: 1.5rem;
 }
 
 /*# sourceMappingURL=index.css.map */
