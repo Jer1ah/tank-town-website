@@ -52,6 +52,32 @@ body {
   color: #2b7a78;
 }
 
+.services__list {
+  margin: 2rem auto;
+  padding: 0;
+  list-style: none;
+}
+.services__listItem {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  background-color: #17252a;
+  padding: 2rem;
+  margin-bottom: 1rem;
+}
+.services__listItem .line {
+  height: 0.1rem;
+  width: 5rem;
+  margin-top: 0.5rem;
+  background-color: #feffff;
+}
+.services__listItem h3 {
+  color: #feffff;
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
 .header {
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../../images/tank-town-header-image.jpg");
   background-size: cover;
@@ -103,6 +129,26 @@ body {
   font-size: 1.1rem;
   line-height: 1.55rem;
   margin-bottom: 1.5rem;
+}
+
+.services {
+  background-color: #def2f1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.services h2 {
+  font-size: 3rem;
+  font-weight: 500;
+  text-align: center;
+  margin-top: 5rem;
+}
+.services .underline {
+  height: 0.2rem;
+  width: 5rem;
+  background-color: #17252a;
+  margin: 0.5rem auto;
 }
 
 /*# sourceMappingURL=index.css.map */
