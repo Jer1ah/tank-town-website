@@ -1,25 +1,73 @@
 .services__list {
-    margin: 2rem auto;
+    @include displayFlex(row, space-between, flex-start);
+    margin: 2.5rem auto 2rem;
     padding: 0;
     list-style: none;
+    width: 70rem;
+    flex-wrap: wrap;
 
     &Item {
-        @include displayFlex(column, flex-start, flex-start);
-        background-color: $dark-green;
-        padding: 2rem;
+        @include displayFlex(column, flex-start, space-between);
+        background-color: $main-green;
         margin-bottom: 1rem;
+        border-radius: .2rem;
+        width: 49%;
+        height: 11rem;
+        padding: 0 2rem;
+
+        .heading {
+            @include displayFlex(column, flex-start, flex-start);
+            width: 100%;
+        }
 
         .line {
             height: .1rem;
             width: 5rem;
-            margin-top: .5rem;
+            margin-top: .35rem;
             background-color: $main-white;
         }
 
         h3 {
             color: $main-white;
-            font-size: 1.5rem;
+            font-size: 1.75rem;
             font-weight: 500;
+            margin-top: 1rem;
+        }
+
+        .list {
+            @include displayFlex(row, flex-start, flex-start);
+            flex-wrap: wrap;
+            list-style: none;
+            padding: 0;
+            margin-top: 1rem;
+        }
+
+        .listItem {
+            margin-right: .5rem;
+            margin-bottom: .25rem;
+
+            span {
+                font-size: 1rem;
+                font-weight: 400;
+                color: $main-white;
+            }
+
+            &:after {
+                content: "|";
+                color: white;
+                font-size: 1rem;
+                margin-left: .5rem;
+            }
+
+            &:last-child {
+                &:after {
+                    content: none;
+                }
+            }
+        }
+
+        &:last-child {
+            width: 100%;
         }
     }
 }
