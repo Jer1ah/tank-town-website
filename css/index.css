@@ -16,20 +16,10 @@ body {
 .navigation {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   background-color: rgba(10, 10, 10, 0.95);
-  padding: 1rem 3rem;
-}
-.navigation__logo {
-  text-decoration: none;
-  color: #feffff;
-}
-.navigation__logo h3 {
-  font-size: 1.5rem;
-  letter-spacing: 0.1rem;
-  line-height: 1.33rem;
-  font-weight: 600;
+  padding: 1.5rem 3rem;
 }
 .navigation__list {
   display: flex;
@@ -42,7 +32,7 @@ body {
   margin-left: 2rem;
 }
 .navigation__listItem a {
-  font-size: 1rem;
+  font-size: 1.1rem;
   text-decoration: none;
   color: #feffff;
   letter-spacing: 0.1rem;
@@ -92,7 +82,7 @@ body {
   color: #feffff;
   font-size: 1.75rem;
   font-weight: 500;
-  margin-top: 1rem;
+  margin-top: 1.5rem;
 }
 .services__listItem .list {
   display: flex;
@@ -133,13 +123,21 @@ body {
   height: 100vh;
 }
 .header__heading {
-  margin: 15rem 0 0 5rem;
+  margin: 15rem auto 0;
+  text-align: center;
 }
 .header__heading h1 {
   color: #feffff;
   font-size: 3.5rem;
   font-weight: 700;
   line-height: 4rem;
+}
+.header__heading span {
+  color: #feffff;
+  font-size: 1.25rem;
+  display: block;
+  margin-top: 0.25rem;
+  letter-spacing: 0.05rem;
 }
 .header__heading a {
   display: inline-block;
