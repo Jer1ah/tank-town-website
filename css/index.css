@@ -76,10 +76,10 @@ body {
   height: 0.1rem;
   width: 5rem;
   margin-top: 0.35rem;
-  background-color: #feffff;
+  background-color: #17252a;
 }
 .services__listItem h3 {
-  color: #feffff;
+  color: #17252a;
   font-size: 1.75rem;
   font-weight: 500;
   margin-top: 1.5rem;
@@ -101,11 +101,11 @@ body {
 .services__listItem .listItem span {
   font-size: 1rem;
   font-weight: 400;
-  color: #feffff;
+  color: #17252a;
 }
 .services__listItem .listItem:after {
   content: "|";
-  color: white;
+  color: #17252a;
   font-size: 1rem;
   margin-left: 0.5rem;
 }
@@ -178,7 +178,7 @@ body {
 }
 
 .services {
-  background-color: #def2f1;
+  background-color: #bce8e6;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -189,6 +189,7 @@ body {
   font-weight: 500;
   text-align: center;
   margin-top: 5rem;
+  color: #17252a;
 }
 .services .underline {
   height: 0.2rem;

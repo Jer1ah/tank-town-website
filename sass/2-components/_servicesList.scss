@@ -24,11 +24,11 @@
             height: .1rem;
             width: 5rem;
             margin-top: .35rem;
-            background-color: $main-white;
+            background-color: $dark-green;
         }
 
         h3 {
-            color: $main-white;
+            color: $dark-green;
             font-size: 1.75rem;
             font-weight: 500;
             margin-top: 1.5rem;
@@ -49,12 +49,12 @@
             span {
                 font-size: 1rem;
                 font-weight: 400;
-                color: $main-white;
+                color: $dark-green;
             }
 
             &:after {
                 content: "|";
-                color: white;
+                color: $dark-green;
                 font-size: 1rem;
                 margin-left: .5rem;
             }

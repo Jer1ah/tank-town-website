@@ -1,5 +1,5 @@
 .services {
-    background-color: $light-gray;
+    background-color: lighten($main-green, 50%);
     @include displayFlex(column, center, center);
 
     h2 {
@@ -7,6 +7,7 @@
         font-weight: 500;
         text-align: center;
         margin-top: 5rem;
+        color: $dark-green;
     }
 
     .underline {
