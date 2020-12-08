@@ -1,37 +1,47 @@
 .reviews__list {
-    margin: 3rem 0 5rem;
+    margin: 3rem auto 3.5rem;
+    width: 40rem;
+    position: relative;
+    padding: 0;
 
     &Item {
         background-color: $light-green;
-        @include displayFlex(row, center, center);
         margin-bottom: 1rem;
-        padding: 1.5rem;
         border-radius: .2rem;
+        padding: 1.5rem;
+        width: 90%;
+        position: relative;
 
         img {
-            width: 3rem;
-            height: 3rem;
+            width: 3.5rem;
+            height: 3.5rem;
             border-radius: 50%;
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
         }
 
         .info {
             margin-left: .75rem;
+            width: 87.5%;
+            float: right;
 
             h5 {
                 color: $dark-green;
                 font-size: 1.25rem;
                 font-weight: 500;
+                margin-bottom: .25rem;
             }
 
             p {
                 color: $dark-green;
-                font-size: .75rem;
+                font-size: .9rem;
             }
         }
     }
 
     .nextButton, .prevButton {
-        height: 2rem;
+        height: 1.5rem;
 
         img {
             height: 100%;
@@ -40,5 +50,19 @@
                 cursor: pointer;
             }
         }
+    }
+
+    .nextButton {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-60%);
+        right: -2.5rem;
+    }
+
+    .prevButton {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-60%);
+        left: -2.5rem;
     }
 }
