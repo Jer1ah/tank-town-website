@@ -29,10 +29,10 @@ body {
   list-style: none;
 }
 .navigation__listItem {
-  margin-left: 2rem;
+  margin-left: 2.25rem;
 }
 .navigation__listItem a {
-  font-size: 1.1rem;
+  font-size: 1rem;
   text-decoration: none;
   color: #feffff;
   letter-spacing: 0.1rem;
@@ -47,7 +47,7 @@ body {
   flex-direction: row;
   justify-content: space-between;
   align-items: flex-start;
-  margin: 2.5rem auto 2rem;
+  margin: 2.5rem auto 5rem;
   padding: 0;
   list-style: none;
   width: 70rem;
@@ -116,6 +116,46 @@ body {
   width: 100%;
 }
 
+.reviews__list {
+  margin: 3rem 0 5rem;
+}
+.reviews__listItem {
+  background-color: #AFD5D3;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 1rem;
+  padding: 1.5rem;
+  border-radius: 0.2rem;
+}
+.reviews__listItem img {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
+}
+.reviews__listItem .info {
+  margin-left: 0.75rem;
+}
+.reviews__listItem .info h5 {
+  color: #17252a;
+  font-size: 1.25rem;
+  font-weight: 500;
+}
+.reviews__listItem .info p {
+  color: #17252a;
+  font-size: 0.75rem;
+}
+.reviews__list .nextButton, .reviews__list .prevButton {
+  height: 2rem;
+}
+.reviews__list .nextButton img, .reviews__list .prevButton img {
+  height: 100%;
+}
+.reviews__list .nextButton img:hover, .reviews__list .prevButton img:hover {
+  cursor: pointer;
+}
+
 .header {
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../../images/tank-town-header-image.jpg");
   background-size: cover;
@@ -178,7 +218,7 @@ body {
 }
 
 .services {
-  background-color: #bce8e6;
+  background-color: #AFD5D3;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -192,9 +232,27 @@ body {
   color: #17252a;
 }
 .services .underline {
-  height: 0.2rem;
-  width: 5rem;
+  height: 0.15rem;
+  width: 7.5rem;
   background-color: #17252a;
+  margin: 0.5rem auto;
+}
+
+.reviews {
+  background-color: #17252a;
+  padding: 0.1rem;
+}
+.reviews h2 {
+  font-size: 3rem;
+  font-weight: 500;
+  text-align: center;
+  margin-top: 5rem;
+  color: #AFD5D3;
+}
+.reviews .underline {
+  height: 0.15rem;
+  width: 7.5rem;
+  background-color: #AFD5D3;
   margin: 0.5rem auto;
 }
 

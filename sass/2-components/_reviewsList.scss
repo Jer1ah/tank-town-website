@@ -1,0 +1,44 @@
+.reviews__list {
+    margin: 3rem 0 5rem;
+
+    &Item {
+        background-color: $light-green;
+        @include displayFlex(row, center, center);
+        margin-bottom: 1rem;
+        padding: 1.5rem;
+        border-radius: .2rem;
+
+        img {
+            width: 3rem;
+            height: 3rem;
+            border-radius: 50%;
+        }
+
+        .info {
+            margin-left: .75rem;
+
+            h5 {
+                color: $dark-green;
+                font-size: 1.25rem;
+                font-weight: 500;
+            }
+
+            p {
+                color: $dark-green;
+                font-size: .75rem;
+            }
+        }
+    }
+
+    .nextButton, .prevButton {
+        height: 2rem;
+
+        img {
+            height: 100%;
+
+            &:hover {
+                cursor: pointer;
+            }
+        }
+    }
+}

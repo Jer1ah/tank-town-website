@@ -1,6 +1,6 @@
 .services__list {
     @include displayFlex(row, space-between, flex-start);
-    margin: 2.5rem auto 2rem;
+    margin: 2.5rem auto 5rem;
     padding: 0;
     list-style: none;
     width: 70rem;
