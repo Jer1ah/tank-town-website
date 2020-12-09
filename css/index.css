@@ -126,8 +126,9 @@ body {
   background-color: #AFD5D3;
   margin-bottom: 1rem;
   border-radius: 0.2rem;
-  padding: 1.5rem;
+  padding: 0 1.5rem;
   width: 90%;
+  height: 8.5rem;
   position: relative;
 }
 .reviews__listItem img {
@@ -139,9 +140,12 @@ body {
   transform: translateY(-50%);
 }
 .reviews__listItem .info {
-  margin-left: 0.75rem;
-  width: 87.5%;
-  float: right;
+  margin-left: 0.5rem;
+  width: 82%;
+  position: absolute;
+  right: 1rem;
+  top: 50%;
+  transform: translateY(-50%);
 }
 .reviews__listItem .info h5 {
   color: #17252a;

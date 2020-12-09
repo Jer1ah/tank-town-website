@@ -8,8 +8,9 @@
         background-color: $light-green;
         margin-bottom: 1rem;
         border-radius: .2rem;
-        padding: 1.5rem;
+        padding: 0 1.5rem;
         width: 90%;
+        height: 8.5rem;
         position: relative;
 
         img {
@@ -22,9 +23,12 @@
         }
 
         .info {
-            margin-left: .75rem;
-            width: 87.5%;
-            float: right;
+            margin-left: .5rem;
+            width: 82%;
+            position: absolute;
+            right: 1rem;
+            top: 50%;
+            transform: translateY(-50%);
 
             h5 {
                 color: $dark-green;
