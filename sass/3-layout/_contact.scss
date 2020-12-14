@@ -1,0 +1,89 @@
+.contact {
+    background-color: $light-green;
+    padding: .1rem;
+
+    h2 {
+        font-size: 3rem;
+        font-weight: 500;
+        text-align: center;
+        margin-top: 3.5rem;
+        color: $dark-green;
+    }
+
+    .underline {
+        height: .15rem;
+        width: 7.5rem;
+        background-color: $dark-green;
+        margin: .5rem auto;
+    }
+
+    &__wrapper {
+        @include displayFlex(row, space-between, flex-start);
+        width: 65rem;
+        max-width: 90%;
+        margin: 3.5rem auto 5rem;
+    }
+
+    &__info {
+        width: 40%;
+
+        p {
+            font-size: .95rem;
+        }
+
+        h3 {
+            font-size: 1.15rem;
+            margin: 1.25rem 0 .25rem;
+        }
+
+        span {
+            font-size: 1.1rem;
+        }
+    }
+
+    &__form {
+        width: 58%;
+    }
+
+    .form {
+        width: 100%;
+
+        &__name {
+            @include displayFlex(row, space-between, center);
+
+            .form__input {
+                width: 49%;
+            }
+        }
+
+        &__input {
+            @include displayFlex(column, flex-start, flex-start);
+            width: 100%;
+            margin-bottom: .5rem;
+
+            label {
+                font-size: .9rem;
+                margin-bottom: .1rem;
+            }
+
+            input {
+                width: 100%;
+                height: 2.25rem;
+                outline: none;
+                text-indent: .5rem;
+                border: .1rem solid $dark-green;
+                border-radius: .1rem;
+            }
+
+            textarea {
+                width: 100%;
+                height: 7.5rem;
+                outline: none;
+                text-indent: .5rem;
+                padding-top: .5rem;
+                border: .1rem solid $dark-green;
+                border-radius: .1rem;
+            }
+        }
+    }
+}

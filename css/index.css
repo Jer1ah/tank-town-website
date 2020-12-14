@@ -117,7 +117,7 @@ body {
 }
 
 .reviews__list {
-  margin: 3rem auto 3.5rem;
+  margin: 3rem auto 5rem;
   width: 40rem;
   position: relative;
   padding: 0;
@@ -192,7 +192,7 @@ body {
 .header__heading h1 {
   color: #feffff;
   font-size: 3.5rem;
-  font-weight: 700;
+  font-weight: 500;
   line-height: 4rem;
 }
 .header__heading span {
@@ -277,6 +277,90 @@ body {
   width: 7.5rem;
   background-color: #AFD5D3;
   margin: 0.5rem auto;
+}
+
+.contact {
+  background-color: #AFD5D3;
+  padding: 0.1rem;
+}
+.contact h2 {
+  font-size: 3rem;
+  font-weight: 500;
+  text-align: center;
+  margin-top: 3.5rem;
+  color: #17252a;
+}
+.contact .underline {
+  height: 0.15rem;
+  width: 7.5rem;
+  background-color: #17252a;
+  margin: 0.5rem auto;
+}
+.contact__wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 65rem;
+  max-width: 90%;
+  margin: 3.5rem auto 5rem;
+}
+.contact__info {
+  width: 40%;
+}
+.contact__info p {
+  font-size: 0.95rem;
+}
+.contact__info h3 {
+  font-size: 1.15rem;
+  margin: 1.25rem 0 0.25rem;
+}
+.contact__info span {
+  font-size: 1.1rem;
+}
+.contact__form {
+  width: 58%;
+}
+.contact .form {
+  width: 100%;
+}
+.contact .form__name {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.contact .form__name .form__input {
+  width: 49%;
+}
+.contact .form__input {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 100%;
+  margin-bottom: 0.5rem;
+}
+.contact .form__input label {
+  font-size: 0.9rem;
+  margin-bottom: 0.1rem;
+}
+.contact .form__input input {
+  width: 100%;
+  height: 2.25rem;
+  outline: none;
+  text-indent: 0.5rem;
+  border: 0.1rem solid #17252a;
+  border-radius: 0.1rem;
+}
+.contact .form__input textarea {
+  width: 100%;
+  height: 7.5rem;
+  outline: none;
+  text-indent: 0.5rem;
+  padding-top: 0.5rem;
+  border: 0.1rem solid #17252a;
+  border-radius: 0.1rem;
 }
 
 /*# sourceMappingURL=index.css.map */
