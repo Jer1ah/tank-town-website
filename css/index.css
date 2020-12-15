@@ -51,6 +51,7 @@ body {
   padding: 0;
   list-style: none;
   width: 70rem;
+  max-width: 95%;
   flex-wrap: wrap;
 }
 .services__listItem {
@@ -76,10 +77,10 @@ body {
   height: 0.1rem;
   width: 5rem;
   margin-top: 0.35rem;
-  background-color: #17252a;
+  background-color: #feffff;
 }
 .services__listItem h3 {
-  color: #17252a;
+  color: #feffff;
   font-size: 1.75rem;
   font-weight: 500;
   margin-top: 1.5rem;
@@ -101,11 +102,11 @@ body {
 .services__listItem .listItem span {
   font-size: 1rem;
   font-weight: 400;
-  color: #17252a;
+  color: #feffff;
 }
 .services__listItem .listItem:after {
   content: "|";
-  color: #17252a;
+  color: #feffff;
   font-size: 1rem;
   margin-left: 0.5rem;
 }
@@ -116,36 +117,25 @@ body {
   width: 100%;
 }
 
+@media (max-width: 1090px) {
+  .services__listItem {
+    width: 100%;
+    height: auto;
+    padding-bottom: 2rem;
+  }
+}
 .reviews__list {
   margin: 3rem auto 5rem;
   width: 40rem;
-  position: relative;
+  max-width: 80%;
   padding: 0;
 }
 .reviews__listItem {
   background-color: #AFD5D3;
   margin-bottom: 1rem;
   border-radius: 0.2rem;
-  padding: 0 1.5rem;
+  padding: 1.75rem 1.5rem;
   width: 90%;
-  height: 8.5rem;
-  position: relative;
-}
-.reviews__listItem img {
-  width: 3.5rem;
-  height: 3.5rem;
-  border-radius: 50%;
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-}
-.reviews__listItem .info {
-  margin-left: 0.5rem;
-  width: 82%;
-  position: absolute;
-  right: 1rem;
-  top: 50%;
-  transform: translateY(-50%);
 }
 .reviews__listItem .info h5 {
   color: #17252a;
@@ -177,6 +167,13 @@ body {
   top: 50%;
   transform: translateY(-60%);
   left: -2.5rem;
+}
+
+.slick-track {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
 }
 
 .header {
@@ -233,7 +230,8 @@ body {
   padding: 0.1rem;
 }
 .about__wrapper {
-  width: 90%;
+  width: 70rem;
+  max-width: 95%;
   margin: 5rem auto;
 }
 .about h2 {
@@ -255,6 +253,10 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  width: 100%;
+}
+.services__wrapper {
+  width: 100%;
 }
 .services h2 {
   font-size: 3rem;
@@ -270,6 +272,11 @@ body {
   margin: 0.5rem auto;
 }
 
+@media (max-width: 1090px) {
+  .services h2 {
+    font-size: 2.25rem;
+  }
+}
 .reviews {
   background-color: #17252a;
   padding: 0.1rem;
@@ -288,6 +295,11 @@ body {
   margin: 0.5rem auto;
 }
 
+@media (max-width: 1090px) {
+  .reviews h2 {
+    font-size: 2.25rem;
+  }
+}
 .contact {
   background-color: #AFD5D3;
   padding: 0.1rem;
@@ -310,8 +322,8 @@ body {
   flex-direction: row;
   justify-content: space-between;
   align-items: flex-start;
-  width: 65rem;
-  max-width: 90%;
+  width: 70rem;
+  max-width: 95%;
   margin: 3.5rem auto 5rem;
 }
 .contact__info {

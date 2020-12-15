@@ -17,3 +17,12 @@
         margin: .5rem auto;
     }
 }
+
+//media queries 
+@media(max-width: 1090px) {
+    .reviews {
+        h2 {
+            font-size: 2.25rem;
+        }
+    }
+}

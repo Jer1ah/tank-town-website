@@ -4,6 +4,7 @@
     padding: 0;
     list-style: none;
     width: 70rem;
+    max-width: 95%;
     flex-wrap: wrap;
 
     &Item {
@@ -24,11 +25,11 @@
             height: .1rem;
             width: 5rem;
             margin-top: .35rem;
-            background-color: $dark-green;
+            background-color: $main-white;
         }
 
         h3 {
-            color: $dark-green;
+            color: $main-white;
             font-size: 1.75rem;
             font-weight: 500;
             margin-top: 1.5rem;
@@ -49,12 +50,12 @@
             span {
                 font-size: 1rem;
                 font-weight: 400;
-                color: $dark-green;
+                color: $main-white;
             }
 
             &:after {
                 content: "|";
-                color: $dark-green;
+                color: $main-white;
                 font-size: 1rem;
                 margin-left: .5rem;
             }
@@ -68,6 +69,17 @@
 
         &:last-child {
             width: 100%;
+        }
+    }
+}
+
+//media queries
+@media(max-width: 1090px) {
+    .services__list {
+        &Item {
+            width: 100%;
+            height: auto;
+            padding-bottom: 2rem;
         }
     }
 }

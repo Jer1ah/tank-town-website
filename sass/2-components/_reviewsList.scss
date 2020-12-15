@@ -1,35 +1,17 @@
 .reviews__list {
     margin: 3rem auto 5rem;
     width: 40rem;
-    position: relative;
+    max-width: 80%;
     padding: 0;
 
     &Item {
         background-color: $light-green;
         margin-bottom: 1rem;
         border-radius: .2rem;
-        padding: 0 1.5rem;
+        padding: 1.75rem 1.5rem;
         width: 90%;
-        height: 8.5rem;
-        position: relative;
-
-        img {
-            width: 3.5rem;
-            height: 3.5rem;
-            border-radius: 50%;
-            position: absolute;
-            top: 50%;
-            transform: translateY(-50%);
-        }
 
         .info {
-            margin-left: .5rem;
-            width: 82%;
-            position: absolute;
-            right: 1rem;
-            top: 50%;
-            transform: translateY(-50%);
-
             h5 {
                 color: $dark-green;
                 font-size: 1.25rem;
@@ -69,4 +51,8 @@
         transform: translateY(-60%);
         left: -2.5rem;
     }
+}
+
+.slick-track {
+    @include displayFlex(row, center, center);
 }

@@ -19,8 +19,8 @@
 
     &__wrapper {
         @include displayFlex(row, space-between, flex-start);
-        width: 65rem;
-        max-width: 90%;
+        width: 70rem;
+        max-width: 95%;
         margin: 3.5rem auto 5rem;
     }
 
