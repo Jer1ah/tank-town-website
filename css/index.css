@@ -219,6 +219,15 @@ body {
   background-color: transparent;
 }
 
+@media (max-width: 800px) {
+  .header__heading h1 {
+    font-size: 2.5rem;
+  }
+  .header__heading span {
+    font-size: 1rem;
+    margin-top: 0;
+  }
+}
 .about {
   background-color: #2b7a78;
   padding: 0.1rem;
@@ -361,6 +370,29 @@ body {
   padding-top: 0.5rem;
   border: 0.1rem solid #17252a;
   border-radius: 0.1rem;
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: #17252a;
+}
+.footer h3 {
+  color: #feffff;
+  margin-top: 2rem;
+  font-size: 1.5rem;
+}
+.footer p {
+  color: #feffff;
+  margin: 0.25rem 0 0.75rem;
+  font-size: 1rem;
+}
+.footer span {
+  color: #feffff;
+  margin-bottom: 2em;
+  font-size: 0.85rem;
 }
 
 /*# sourceMappingURL=index.css.map */

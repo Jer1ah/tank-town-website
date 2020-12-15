@@ -1,0 +1,22 @@
+.footer {
+    @include displayFlex(column, flex-start, center);
+    background-color: $dark-green;
+
+    h3 {
+        color: $main-white;
+        margin-top: 2rem;
+        font-size: 1.5rem;
+    }
+
+    p {
+        color: $main-white;
+        margin: .25rem 0 .75rem;
+        font-size: 1rem;
+    }
+
+    span {
+        color: $main-white;
+        margin-bottom: 2em;
+        font-size: .85rem;
+    }
+}
