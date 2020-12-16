@@ -87,3 +87,28 @@
         }
     }
 }
+
+//media queries 
+@media(max-width: 1090px) {
+    .contact h2 {
+        font-size: 2.25rem;
+    }
+}
+
+@media(max-width: 895px) {
+    .contact {
+        &__wrapper {
+            flex-direction: column;
+            margin-top: 2.5rem;
+        }
+
+        &__info {
+            width: 100%;
+            margin-bottom: 3.5rem;
+        }
+
+        &__form {
+            width: 100%;
+        }
+    }
+}
